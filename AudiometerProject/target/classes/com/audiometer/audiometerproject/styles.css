@@ -1,0 +1,184 @@
+/* ============================================
+   Audiometer Test System — Clean Medical Theme
+   ============================================ */
+
+/* --- Root --- */
+.root {
+    -fx-background-color: #eef1f5;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* --- Header Bar --- */
+.header-bar {
+    -fx-background-color: #1b2a4a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 4, 0, 0, 2);
+}
+
+.header-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.header-status {
+    -fx-text-fill: #8fa4c9;
+    -fx-font-size: 12px;
+}
+
+/* --- Audiogram Panel --- */
+.audiogram-panel {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #d5dbe3;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 6, 0, 0, 2);
+}
+
+/* --- Control Panel --- */
+.control-panel {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #d5dbe3;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 6, 0, 0, 2);
+}
+
+.control-section {
+    -fx-padding: 16 18 16 18;
+    -fx-border-color: transparent transparent #e8ecf1 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.section-label {
+    -fx-text-fill: #5a6a80;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* --- Right Ear Buttons --- */
+.right-ear-active {
+    -fx-background-color: #d63031;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.right-ear-inactive {
+    -fx-background-color: #f0f2f5;
+    -fx-text-fill: #d63031;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-border-color: #d63031;
+    -fx-border-radius: 6;
+    -fx-border-width: 1.5;
+    -fx-cursor: hand;
+}
+.right-ear-inactive:hover {
+    -fx-background-color: #fde8e8;
+}
+
+/* --- Left Ear Buttons --- */
+.left-ear-active {
+    -fx-background-color: #0984e3;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.left-ear-inactive {
+    -fx-background-color: #f0f2f5;
+    -fx-text-fill: #0984e3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-border-color: #0984e3;
+    -fx-border-radius: 6;
+    -fx-border-width: 1.5;
+    -fx-cursor: hand;
+}
+.left-ear-inactive:hover {
+    -fx-background-color: #e4f0fb;
+}
+
+/* --- Play Sound Button --- */
+.play-btn {
+    -fx-background-color: #0984e3;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.play-btn:hover {
+    -fx-background-color: #0773c5;
+}
+.play-btn:pressed {
+    -fx-background-color: #0560a3;
+}
+
+/* --- Heard Button --- */
+.heard-btn {
+    -fx-background-color: #00b894;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.heard-btn:hover {
+    -fx-background-color: #00a381;
+}
+.heard-btn:pressed {
+    -fx-background-color: #008d6e;
+}
+
+/* --- Clear Button --- */
+.clear-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #b2bec3;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-border-color: #dfe6e9;
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+.clear-btn:hover {
+    -fx-background-color: #ffeaea;
+    -fx-text-fill: #d63031;
+    -fx-border-color: #d63031;
+}
+
+/* --- Auto Test Button --- */
+.auto-test-btn {
+    -fx-background-color: #6366f1;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.auto-test-btn:hover {
+    -fx-background-color: #4f46e5;
+}
+
+/* --- No Response Button --- */
+.no-response-btn {
+    -fx-background-color: #f59e0b;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.no-response-btn:hover {
+    -fx-background-color: #d97706;
+}
